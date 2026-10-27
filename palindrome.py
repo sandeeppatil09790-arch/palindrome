@@ -1,6 +1,6 @@
+import sys
 
-
-string = input("Enter a string: ")
+string = sys.argv [1]
 
 if string == string[::-1]:
     print("The string is a palindrome")
